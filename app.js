@@ -34,7 +34,7 @@ function createGrid(gridSize) {
         div.addEventListener("mouseenter", () => {
             const currentOpacity = parseFloat(div.style.opacity);
 
-            div.style.opacity = Math.min(currentOpacity + 0.1, );
+            div.style.opacity = Math.min(currentOpacity + 0.1, 1);
         });
 
         container.appendChild(div);
